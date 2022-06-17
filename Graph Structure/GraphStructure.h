@@ -14,6 +14,9 @@
 #ifndef GRAPHSTRUCTURE_H
 #define GRAPHSTRUCTURE_H
 
+void CreateInit(GraphMatrix *GM); //创建并初始化一个图
+void Clear(GraphMatrix *GM); //清空图
+void Display(GraphMatrix *GM); //显示图
 
 
 #endif
